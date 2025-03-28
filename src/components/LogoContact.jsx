@@ -1,7 +1,7 @@
 import React from 'react';
 import PhotoAbout from './PhotoAbout';
 
-export default function LogoContact({img}) {
+function LogoContact({img}) {
    return(
 
     <div className='img w-200 h-12 m-12 flex justify-end md:justify-start md:m-0 md:w-100 md:ml-25 md:mb-3'>
@@ -12,3 +12,4 @@ export default function LogoContact({img}) {
    )
 }
 
+export default LogoContact;
