@@ -7,6 +7,7 @@ import Competences from './pages/competences.jsx'
 import Projects from './pages/projects.jsx'
 import Contacts from './pages/contacts.jsx'
 import EmailForm from './components/EmailForm.jsx'
+import LogoContact from './components/logoContact.jsx'
 import ThreeScene from './components/threeScene.jsx'
 import LogoCompet from './components/LogoCompet.jsx'
 import Collection from './components/collection.jsx'
@@ -23,6 +24,7 @@ function App() {
           <Route path="/threeScene" element={<ThreeScene />} />
           <Route path="/Collection" element={<Collection />} />
           <Route path='/EmailForm' element={<EmailForm />} />
+          <Route path='/LogoContact' element={<LogoContact />} />
           <Route path='/LogoCompet' element={<LogoCompet />} />
         </Routes>
       
