@@ -1,13 +1,15 @@
 import React from 'react';
-import ThreeScene from '../components/threeScene';
 import Layout from '../components/layout';
+import { Link } from 'react-scroll';
+import Navbar from './Navbar';
+import ThreeScene from '../components/threeScene';
 
 
 const Home = () => {
   return (
     <Layout>
       <div className='flex md:flex-col'>
-    
+      <Navbar />
       <div className='flex flex-col grow justify-center md:flex-row md:gap-80 md:justify-center '>
       <h1 className="text-4xl md:text-5xl lg:text-7xl">MALICK</h1>
       <h1 className="text-4xl md:text-5xl lg:text-7xl">BAGUIRI</h1>
@@ -25,9 +27,13 @@ const Home = () => {
 
       </div>
     </div>
+
+   
     </Layout>
   );
  
 };
 
 export default Home;
+
+

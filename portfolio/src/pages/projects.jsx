@@ -1,7 +1,7 @@
 import React from 'react';
 // import ThreeScene from '../components/ThreeScene';
 import Layout from '../components/layout';
-// import Nav from './Nav';
+import Navbar from './Navbar';
   
 
 const Projects = () => {
@@ -11,7 +11,7 @@ const Projects = () => {
     return (
         <Layout className="w-screen">
           <div className='flex md:flex-col'>
-          {/* <Nav /> */}
+          <Navbar />
           </div>
   
         </Layout>
