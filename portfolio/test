@@ -1,0 +1,15 @@
+   // <Router>
+    //     <Routes>
+    //       <Route path="/" element={<Home />} />
+    //       <Route path="/about" element={<About />} />
+    //       <Route path="/competences" element={<Competences />} />
+    //       <Route path="/projects" element={<Projects />} />
+    //       <Route path="/contacts" element={<Contacts />} />
+    //       <Route path="/threeScene" element={<ThreeScene />} />
+    //       <Route path="/Collection" element={<Collection />} />
+    //       <Route path='/EmailForm' element={<EmailForm />} />
+    //       <Route path='/LogoContact' element={<LogoContact />} />
+    //       <Route path='/LogoCompet' element={<LogoCompet />} />
+    //     </Routes>
+      
+    // </Router>
