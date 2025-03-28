@@ -1,13 +1,11 @@
 import React from 'react';
 import Layout from '../components/layout';
-import Navbar from './Navbar';
 import Collection from '../components/collection';
 
 const About = () => {
   return (
     <Layout className="w-screen">
       <div className="flex p-7 b ">
-        <Navbar />
         <div className="flex flex-col grow justify-center md:flex-row md:gap-80 md:justify-center relative">
           <div className="profile-image-container">
             <img
